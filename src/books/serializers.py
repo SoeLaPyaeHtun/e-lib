@@ -10,15 +10,15 @@ class BookModelSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class AuthorModelSerializer(serializers.ModelSerializer):
+# class AuthorModelSerializer(serializers.ModelSerializer):
 
-    class Meta:
-        model = Author
-        fields = "__all__"
+#     class Meta:
+#         model = Author
+#         fields = "__all__"
 
 
-class CategoryModelSerializer(serializers.ModelSerializer):
+# class CategoryModelSerializer(serializers.ModelSerializer):
 
-    class Meta:
-        model = Category
-        fields = "__all__"
+#     class Meta:
+#         model = Category
+#         fields = "__all__"
